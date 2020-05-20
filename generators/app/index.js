@@ -62,13 +62,13 @@ module.exports = class extends Generator {
             this.answers
         );
         this.fs.copyTpl(
-            this.templatePath('bowerfile.json'),
-            this.destinationPath('bower.json'),
+            this.templatePath('packagefile.json'),
+            this.destinationPath('package.json'),
             this.answers
         );
     }
     install(){
-        this.bowerInstall();
+        this.npmInstall();
     }
 
 };
