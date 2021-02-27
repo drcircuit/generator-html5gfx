@@ -1,6 +1,6 @@
 /** <%= name %> */
 (function(){
-    var scr;
+    let scr;
   
     function setup() {
         scr = dcl.setupScreen(<%= width %> ,<%= height %> );
