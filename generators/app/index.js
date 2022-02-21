@@ -1,5 +1,8 @@
 'use strict';
-var Generator = require('yeoman-generator');
+const _extend = require("lodash/extend");
+const Generator = require("yeoman-generator");
+_extend(Generator.prototype, require("yeoman-generator/lib/actions/install"));
+
 module.exports = class extends Generator {
     constructor(args, opts) {
         super(args, opts);

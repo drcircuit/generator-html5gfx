@@ -1,6 +1,6 @@
 {
   "name": "generator-html5gfx",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A yeoman generator for small canvas based graphics projects",
   "keywords": [
     "yeoman-generator"
